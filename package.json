@@ -1,0 +1,34 @@
+{
+  "name": "nodeserial",
+  "version": "1.0.0",
+  "description": "usb serial communication with nodejs",
+  "main": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilemonChiro/nodeSerial.git"
+  },
+  "keywords": [
+    "usb",
+    "serialport",
+    "nodejs"
+  ],
+  "author": "Philemon Chiro",
+  "license": "ISC",
+  "bin": {
+    "nodeserial": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/PhilemonChiro/nodeSerial/issues"
+  },
+  "homepage": "https://github.com/PhilemonChiro/nodeSerial#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.0",
+    "serialport": "^9.2.8",
+    "yargs": "^17.3.0"
+  }
+}
